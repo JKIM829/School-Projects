@@ -8,6 +8,8 @@
 
 * [Calendar](http://ec2-174-129-86-112.compute-1.amazonaws.com/~J_Kim/Module5/Calendar/CalendarHome.html)
 
+* [Full Assignment Description](https://classes.engineering.wustl.edu/cse330/index.php?title=Module_5)
+
 ### Notes about scripts in calendar ###
 * The calendar itself is built solely from code found in the javascript files in this repository and the calendar API on the course website. It has no dependencies on the bootstrap external library.
 * I used bootstrap plugins and ui to create the dialog boxes that show event information in a calendar. The events are shown with the tools in these libraries, but the code for retrieving/creating/deleting/editing the events are found in javascript files in repository.
