@@ -2,6 +2,7 @@
 
 ### Link ###
 * [Chat Server](http://ec2-174-129-86-112.compute-1.amazonaws.com:3456/Home.html)
+* [Full Assignment Description](https://classes.engineering.wustl.edu/cse330/index.php/Module_6)
 
 ### File Structure ###
 
