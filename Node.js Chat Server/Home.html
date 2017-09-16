@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="login.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<meta charset="utf-8"/>
+<title>Chat Room Home</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src = "https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+
+
+<!--Plugin from http://labs.abeautifulsite.net/jquery-dropdown/#2-->
+<link type="text/css" rel="stylesheet" href="jquery.dropdown.min.css" />
+<script type="text/javascript" src="jquery.dropdown.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src = "init.js"></script>
+<script src = "socket_main.js"></script>
+
+</head>
+<body>        
+    <div id = "sidebar">
+        <p id = "err"></p>
+        <div id = "unlogged">
+             <p>To use this site, log in with a custom username:</p>
+            <input type = "text" id = "username"/><br>
+            <button id = "login"> Log In</button>
+        </div>
+        <div id = "logged">
+            <div id = "welcome"></div>
+            <div id = "accordion">
+                <h3> Current Room</h3>
+                <div id = "curr_room"></div>
+                <h3>Create a Room</h3>
+                <div id = "newRoom">
+                    <input type = "text" id = "roomName" placeholder="Room Name"><br>
+                    <input type="checkbox" id = "pubOption">Public Room<br>
+                    <button id = "createRoom">Create Room</button>
+                </div>
+                <h3> My Rooms</h3>
+                <div id = "rooms"></div>
+                <h3> Public Room Directory</h3>
+                <div id = "pubrooms"></div>
+                <h3 id = "kickUsers"> Kick Users</h3>
+                <div id = "kick"></div>
+            </div>
+        </div>
+       
+    </div>
+    
+    <div id = "main">
+        <div id="chatlog"></div>
+        <div class = "sendbox">
+        <button id = "send">send</button> 
+        <input type="text" id="message_input" />
+        </div>
+        
+        <div class= "sendbox" id = "private_sendbox">
+            <button id = "sendpm">Send Private</button>
+            <input type = "text" id = "private_message_input"/>
+        </div>
+    </div>
+    
+   
+    
+</body>
+</html>

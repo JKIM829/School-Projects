@@ -1,0 +1,171 @@
+html{
+    height:100%;
+}
+body{
+	margin: 0 auto;
+    height:100%;
+    min-height: 100%;
+    width:100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    background: pink;
+}
+h1{
+    text-align: center;
+    vertical-align: middle;
+}
+
+hr{
+    clear:both;
+    border:none;
+    background-color:white;
+    color:white;
+    display:block;
+}
+
+input[type=text]{
+    min-width: 85%;
+}
+
+div#header{
+    margin: 0 auto;
+    padding: 2px;
+    height: 8%;
+    background-color: pink;
+    vertical-align: middle;
+}
+
+div#sidebar{
+    position:relative;
+    padding: 5px;
+    width: 20%;
+    min-height: 100%;
+    background-color:pink;
+    float:left;
+    justify-content: center;
+    line-height: 1.5;
+}
+div#main{
+    padding:5px;
+    height: 100%;
+    width: 100%;
+    margin-top:10%;
+    margin: 0 auto;
+    margin-left: 22%;
+    background-color:white;
+    border: 2px silver double;
+}
+.msgNode{
+    max-width: 50%;
+    background-color: #e099ff;
+    border: 2px silver;
+    padding: 10px;
+    border-radius: 10px;
+    display:inline-block;
+    margin-top:5px;
+}
+
+div.msgNode.meNode{
+    text-align:right;
+    background-color: #b3b3ff;
+    float:right;
+}
+div.msgNode.meNode .private{
+    background-color:paleVioletRed;
+}
+
+div.msgNode.private {
+    background-color:paleVioletRed;
+}
+
+div.msgNode.poster.me{
+    float:right;
+    text-align:left;
+}
+
+div.msgNode.poster{
+    display: inline-block;
+    background-color: white;
+    border:none;
+    font-size: 10px;
+    color: silver;
+}
+
+div.sysNode{
+    font-size:12px;
+    color:paleVioletRed;
+    display: inline-block;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+}
+
+div#chatlog{
+    display: block;
+    overflow-y: scroll;
+    border: 3px solid silver;
+    padding: 5px;
+    background: white;
+    margin-top: 2%;
+    height: 60%;
+    width: 60%;
+    margin-left: 10%;
+}
+div.sendbox{
+    padding:5px;
+    background: white;
+    margin-left:10%;
+    margin-top: 5px;
+    width: 60%;
+    height: 20px;
+    border: 3px solid silver;
+}
+
+.pmList{
+    border:none;
+    color: indigo;
+    font-size: 14px;
+    margin-top:2px;
+}
+.kickable{
+    border:none;
+    color: indigo;
+    font-size: 14px;
+    margin-top:2px;
+}
+.kickable:hover{
+    color:red;
+    cursor:pointer;
+}
+
+.pmList:hover{
+    color:blue;
+    cursor:pointer;
+}
+
+.roomList{
+    width:100%;
+    background-color:LightSteelBlue;
+}
+
+.pubRoomList{
+    width:100%;
+    background-color:lightgreen;
+}
+
+#message_input{
+    min-width: 90%;
+}
+#send{
+    background-color: pink;
+}
+
+button{
+    border-radius: 2px;
+    background-color: whitesmoke;
+    border: 1px silver solid;
+}
+
+.err{
+    color:paleVioletRed;
+}
