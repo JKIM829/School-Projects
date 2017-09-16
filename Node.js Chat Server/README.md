@@ -4,6 +4,12 @@
 * [Chat Server](http://ec2-174-129-86-112.compute-1.amazonaws.com:3456/Home.html)
 * [Full Assignment Description](https://classes.engineering.wustl.edu/cse330/index.php/Module_6)
 
+### Description of Project ###
+
+I created a multi-room chat server using Node.JS and Socket.IO. This chat service contains a main lobby where users sign on with a nickname and can communicate with each other. Users may also create chat rooms for other to join. The entire app is displayed on a single webpage, listing the room you are in, all available rooms, and the users in the current room.
+
+In addition, users can create private rooms, kick users out of the private rooms, and send private messages to single users.  
+
 ### File Structure ###
 
 * In my server, I set up a directory parallel to public_html called Mod6. In that directory, I have 2 folders **node_modules** and  **static** , and one js file called *static_server.js*, which I run to get the website working. Inside **static** are the files that run on the website
