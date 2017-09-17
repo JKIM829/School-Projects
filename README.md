@@ -15,8 +15,7 @@ Projects are written in the following languages:
   * Javascript
   * Python
   * PHP
-
-
   
+Note: Only a small subset of projects- I uploaded code where I was the only or primary author
   
  
